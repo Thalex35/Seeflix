@@ -1,0 +1,27 @@
+.header_content nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5em;
+  border: 1px solid #030000;
+  padding: 20px;
+  background-color: #030000;
+  position: relative;
+}
+
+.nav_links {
+  display: flex;
+  gap: 40px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
