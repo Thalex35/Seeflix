@@ -8,12 +8,17 @@
   justify-content: flex-start;
   text-align: left;
   font-size: 1.7em;
-  padding: 100px 90px;
+  padding: clamp(48px, 8vw, 100px) clamp(20px, 7vw, 90px);
   color: white;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
+  box-sizing: border-box;
 }
+
+/* .hero img{
+width
+} */
 
 .hero::before {
   content: "";
@@ -39,4 +44,12 @@
   border-radius: 15px;
   font-size: 1.2em;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+    font-size: 1.15em;
+    background-position: 68% top;
+  }
 }
