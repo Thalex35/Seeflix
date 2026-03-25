@@ -1,4 +1,4 @@
-import play from "../../assets/play.png";
+import play from "../assets/play.png";
 import { Link } from "react-router-dom";
 import "./footer.css";
 
@@ -12,10 +12,10 @@ export default function Footer() {
         <div className="menu">
           <h3>Menu</h3>
           <div className="nav-links">
-            <Link to="/Home">Home</Link>
-            <Link to="/Media">Media</Link>
-            <Link to="/About">About</Link>
-            <Link to="/Contact">Contact</Link>
+            <Link to="/home">Home</Link>
+            <Link to="/media">Media</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
         <div className="contact">

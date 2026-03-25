@@ -1,9 +1,9 @@
 import { trending_movies } from "../data/trending_movies.js";
 import { top_shows } from "../data/top_shows.js";
-import Header from "../components/Home/Header.jsx";
+import Header from "../components/Header.jsx";
 import Hero from "../components/Home/Hero.jsx";
 import MediaList from "../components/Home/MediaList.jsx";
-import Footer from "../components/Home/Footer.jsx";
+import Footer from "../components/Footer.jsx";
 import "../Styles/Home.css";
 
 export default function Home() {

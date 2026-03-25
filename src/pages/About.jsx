@@ -1,16 +1,16 @@
 import "../Styles/Home.css";
+import Footer from "../components/Footer.jsx";
+import Header from "../components/Header.jsx";
+import Hero from "../components/About/HeroAbout.jsx";
+import Desc from "../components/About/Desc.jsx";
 
 export default function About() {
   return (
-    <section id="about" className="content_section">
-      <div className="section_intro">
-        <span className="section_eyebrow">About</span>
-        <h2>SeeFLIX helps viewers find their next favorite story faster.</h2>
-        <p>
-          The idea behind this page is simple: spotlight strong picks, keep the
-          layout clean, and make discovery feel effortless.
-        </p>
-      </div>
-    </section>
+    <div>
+      <Header />
+      <Hero />
+      <Desc />
+      <Footer />
+    </div>
   );
 }

@@ -1,0 +1,14 @@
+.mission {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 80%;
+}
+
+.mission img {
+  width: 200px;
+}
+
+.para p {
+  font-size: 1.5em;
+}
