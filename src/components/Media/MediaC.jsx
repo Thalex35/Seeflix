@@ -1,4 +1,5 @@
 import "../Home/MediaList.css";
+import "./mediaC.css";
 
 export default function Mediacard({ title, cover, rating, type }) {
   return (

@@ -1,14 +1,25 @@
+.About h1 {
+  color: white;
+  text-align: center;
+}
+
+.presentation,
 .mission {
   display: flex;
-  align-items: center;
+  justify-content: space-around;
+  margin: 40px;
+  gap: 30px;
   color: white;
-  width: 80%;
+  font-size: 1.3em;
 }
 
-.mission img {
-  width: 200px;
+.presentation h3,
+.mission h3 {
+  font-size: 1.3em;
 }
 
-.para p {
-  font-size: 1.5em;
+.presentation p,
+.mission p {
+  font-size: 1em;
+  width: 60%;
 }

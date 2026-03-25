@@ -45,11 +45,4 @@ width
   font-size: 1.2em;
   cursor: pointer;
 }
-
-@media (max-width: 768px) {
-  .hero {
-    min-height: 60vh;
-    font-size: 1.15em;
-    background-position: 68% top;
-  }
 }
