@@ -1,0 +1,9 @@
+.ListMedia h1 {
+  color: white;
+}
+
+.media_cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}

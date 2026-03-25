@@ -1,0 +1,58 @@
+.allInput {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.myinput_info {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.input {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+textarea {
+  height: 200px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 1.2em;
+}
+
+.btn {
+  display: flex;
+  margin: auto;
+  padding: 15px 25px;
+  background: linear-gradient(#3a237e, #683fe4);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.btn_container {
+  margin-top: 60px;
+}

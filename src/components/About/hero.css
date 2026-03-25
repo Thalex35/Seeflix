@@ -1,0 +1,29 @@
+.hero_about {
+  min-height: 70vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.7em;
+  padding: clamp(48px, 8vw, 100px) clamp(20px, 7vw, 90px);
+  color: white;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.hero_about::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6));
+}
+
+.hero_about > * {
+  position: relative;
+  z-index: 1;
+}

@@ -1,17 +1,18 @@
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <header className="header_content">
       <nav>
         <div className="logo">
-          <a href="#">SeeFLIX</a>
+          <Link to="/home">SeeFLIX</Link>
         </div>
         <div className="nav_links">
-          <a href="./Home.jsx">Home</a>
-          <a href="./Media.jsx">Media</a>
-          <a href="./About.jsx">About</a>
-          <a href="./Contact.jsx">Contact</a>
+          <Link to="/home">Home</Link>
+          <Link to="/media">Media</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
         </div>
       </nav>
     </header>

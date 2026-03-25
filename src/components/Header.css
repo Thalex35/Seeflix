@@ -8,6 +8,10 @@
   padding: 20px;
   background-color: #030000;
   position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .nav_links {
@@ -24,4 +28,16 @@
 nav a {
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .header_content nav {
+    padding: 18px 20px;
+    font-size: 1.15em;
+  }
+
+  .nav_links {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
 }
