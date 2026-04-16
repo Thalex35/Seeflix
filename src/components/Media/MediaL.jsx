@@ -9,10 +9,10 @@ export default function MediaList({ items }) {
         {items.map((item) => (
           <MediaCard
             key={item.id}
-            cover={item.cover}
             title={item.title}
-            rating={item.rating}
-            type={item.type}
+            cover={`https://image.tmdb.org/t/p/w500${item.poster_path}`}
+            rating={item.vote_average}
+            releaseDate={item.release_date}
           />
         ))}
       </div>

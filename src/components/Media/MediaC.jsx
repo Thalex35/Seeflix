@@ -1,13 +1,13 @@
 import "../Home/MediaList.css";
 import "./mediaC.css";
 
-export default function Mediacard({ title, cover, rating, type }) {
+export default function Mediacard({ title, cover, rating, releaseDate }) {
   return (
     <div className="media_card">
+      <h3>{title}</h3>
       <img src={cover} alt={title} />
-      <h3 className="media_title">{title}</h3>
-      <p className="media_rating">{rating}</p>
-      <p className="media_type">{type}</p>
+      <p>Rating : {rating}</p>
+      <p>{releaseDate}</p>
     </div>
   );
 }
