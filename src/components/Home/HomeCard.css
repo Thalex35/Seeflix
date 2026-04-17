@@ -1,20 +1,20 @@
-.media_card {
+.Home_card {
   text-align: center;
 }
 
-.media_title,
-.media_rating {
+.Home_title,
+.Home_rating {
   text-align: center;
   color: rgb(173, 198, 215);
   margin: 8px 0 0;
 }
 
-.media_title {
+.Home_title {
   font-size: 1.05rem;
   font-weight: 700;
 }
 
-.media_rating {
+.Home_rating {
   font-size: 0.95rem;
   font-weight: 600;
 }

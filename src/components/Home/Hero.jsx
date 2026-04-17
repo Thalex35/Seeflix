@@ -1,4 +1,5 @@
 import bg from "../../assets/background/bg.jpeg";
+import { Link } from "react-router-dom";
 import "./Hero.css";
 
 export default function Hero() {
@@ -15,7 +16,9 @@ export default function Hero() {
       <p>
         Discover the best movies and TV shows,<br></br> handpicked just for you.
       </p>
-      <button id="get_started">Get Started</button>
+      <Link to="/media">
+        <button id="get_started">Get Started</button>
+      </Link>
     </section>
   );
 }
