@@ -30,6 +30,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: #5226d6;
+}
+
 @media (max-width: 768px) {
   .header_content nav {
     padding: 18px 20px;

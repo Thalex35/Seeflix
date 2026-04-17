@@ -1,13 +1,13 @@
-import MediaCard from "./MediaCard.jsx";
-import "./MediaList.css";
+import HomeCard from "./HomeCard.jsx";
+import "./HomeList.css";
 
-export default function MediaList({ title, items }) {
+export default function HomeList({ title, items }) {
   return (
-    <div className="media_list">
+    <div className="Home_list">
       <h2 style={{ color: "white" }}>{title}</h2>
-      <div className="media_cards">
+      <div className="Home_cards">
         {items.map((item) => (
-          <MediaCard
+          <HomeCard
             key={item.id}
             title={item.title}
             cover={item.cover}

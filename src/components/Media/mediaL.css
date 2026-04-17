@@ -1,9 +1,15 @@
-.ListMedia h1 {
+.media_list h1 {
   color: white;
+  margin-left: 80px;
+  margin-top: 70px;
+  margin-bottom: 40px;
 }
 
 .media_cards {
   display: flex;
+  gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }

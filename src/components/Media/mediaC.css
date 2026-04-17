@@ -1,5 +1,22 @@
-.media_card h3,
+.media_card h4,
 p {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.2em;
+}
+
+.media_card h4 {
+  margin: 20px;
+}
+
+.media_card img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.media_card {
+  text-align: center;
+  width: 350px;
+  border: 1px solid #683fe4;
+  background-color: #3a237e;
+  border-radius: 20px;
 }

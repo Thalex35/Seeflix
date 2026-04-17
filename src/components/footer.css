@@ -31,6 +31,10 @@ footer {
   text-decoration: none;
 }
 
+.nav-links a:hover {
+  color: #5226d6;
+}
+
 .nav-links {
   display: flex;
   flex-direction: column;
