@@ -11,7 +11,7 @@ export default function ContactForm() {
         <p>Phone : (+509)32150000</p>
 
         <div className="allInput">
-          <h2>Get in Touch</h2>
+          <h3>Get in Touch</h3>
           <div className="myinput_info">
             <div className="input">
               <label htmlFor="name">Name</label>
